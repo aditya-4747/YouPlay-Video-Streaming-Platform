@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .menu-item{
+        @apply flex items-center py-3 pl-3 gap-4 hover:bg-[#021526] rounded-xl w-[90%];
+    }
+}
+
+@layer utilities{
+    .scrollbar::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #ffffff6e;
+        border-radius: 50px;
+    }
+
+    ::-webkit-scrollbar {
+        background-color: black;
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(178, 178, 178);
+        width: 10px;
+        border-radius: 50px;
+    }
+}
