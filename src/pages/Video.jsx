@@ -11,7 +11,7 @@ export default function Video(){
             <section>
                 <div className="">
                     <div className="mt-[83px] flex w-full">
-                        <video className="h-[70vh] w-screen outline-none" src="http://res.cloudinary.com/dix1mzveh/video/upload/v1723083769/ghhfr6bovd9n4yhy8l7n.mp4" controls></video>
+                        <video className="h-[70vh] w-screen outline-none" src="{videoURL}" controls></video>
                     </div>
                 </div>
             </section>
